@@ -2,6 +2,52 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.0](https://github.com/diogenxs/asdf-actions/compare/v3.0.2...v2.0.0) (2025-02-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* bump action to node20 ([#563](https://github.com/diogenxs/asdf-actions/issues/563))
+* Update actions to use node16 ([#488](https://github.com/diogenxs/asdf-actions/issues/488))
+
+### chore
+
+* Update actions to use node16 ([#488](https://github.com/diogenxs/asdf-actions/issues/488)) ([2f61da5](https://github.com/diogenxs/asdf-actions/commit/2f61da5af7da0a1216219da51d0718c25e159a77))
+
+
+### Features
+
+* bump action to node20 ([#563](https://github.com/diogenxs/asdf-actions/issues/563)) ([a2d44a7](https://github.com/diogenxs/asdf-actions/commit/a2d44a72f9174b83e100b92d27851c62696fa87c))
+* bump dependencies & to `typescript@5`. Use `pnpm` ([#557](https://github.com/diogenxs/asdf-actions/issues/557)) ([8d23981](https://github.com/diogenxs/asdf-actions/commit/8d2398103bfd46c1eea5a588e1e90132d7c0e76c))
+* skip_install option to skip asdf install on setup ([#536](https://github.com/diogenxs/asdf-actions/issues/536)) ([c926367](https://github.com/diogenxs/asdf-actions/commit/c926367c74d7ac64e42946f54849dfd9165e2b6f))
+* Update actions to use node16 ([#488](https://github.com/diogenxs/asdf-actions/issues/488)) ([6844d09](https://github.com/diogenxs/asdf-actions/commit/6844d09b13209e7d2ce3b63d2b089a2acef581ec))
+* update asdf repo if it exists ([#539](https://github.com/diogenxs/asdf-actions/issues/539)) ([4907cdf](https://github.com/diogenxs/asdf-actions/commit/4907cdfe90a7aa2c98ef4bc8d5415ef8a38bf079))
+
+
+### Patches
+
+* bump `@actions/*` SDKs & rebuild plugins ([#535](https://github.com/diogenxs/asdf-actions/issues/535)) ([f2e8edb](https://github.com/diogenxs/asdf-actions/commit/f2e8edb0852a0cc7e0de8e7f30c2b660be13e4e9))
+* bump esbuild & rebuild plugins ([#532](https://github.com/diogenxs/asdf-actions/issues/532)) ([1c86dd7](https://github.com/diogenxs/asdf-actions/commit/1c86dd77827c32947af570f209c90092ddfcc873))
+* set same pnpm & node versions in pkg.json as in tool-versions ([e4a312a](https://github.com/diogenxs/asdf-actions/commit/e4a312a59f7c4c5ed731f96d3fa89e9d8608e55c))
+* update codeql for dependabot compat ([3f6d713](https://github.com/diogenxs/asdf-actions/commit/3f6d71382fe4c7807936733d72aef7ee6e56e7a9))
+* update lockfile ([c01a934](https://github.com/diogenxs/asdf-actions/commit/c01a9347ea98eeb94ee8901cc578bb8afc76b70e))
+* use correct trigger type ([d464031](https://github.com/diogenxs/asdf-actions/commit/d4640312f060abdd98823bf6bd9a2758851133c2))
+
+
+### Documentation
+
+* add missing dependabot file ref ([#524](https://github.com/diogenxs/asdf-actions/issues/524)) ([6bd8513](https://github.com/diogenxs/asdf-actions/commit/6bd85132f0d17781f15d8e8e303ee5fc59c68e33))
+* correct some grammar ([#574](https://github.com/diogenxs/asdf-actions/issues/574)) ([6278efe](https://github.com/diogenxs/asdf-actions/commit/6278efebb38ae025cc91dd008910f549e775a8c8))
+* fix example workflow running twice for PR commit pushes ([#498](https://github.com/diogenxs/asdf-actions/issues/498)) ([d7b7b88](https://github.com/diogenxs/asdf-actions/commit/d7b7b885bfd288df461b434dfbe6044e9692bf74))
+* fix link in readme ([46346c5](https://github.com/diogenxs/asdf-actions/commit/46346c5cbb63fe96d09f95e926b66ff5cba5e372))
+* fix table formatting with line break ([86a8bd1](https://github.com/diogenxs/asdf-actions/commit/86a8bd1b12f0b8a05949b13442d93d93f65a1e3b))
+* initial contribution guide ([#531](https://github.com/diogenxs/asdf-actions/issues/531)) ([81d09b9](https://github.com/diogenxs/asdf-actions/commit/81d09b95b8224b086e24b36ca1aef8e3f9272bd6))
+* instructions for `v2.0.0` release with restructure ([#523](https://github.com/diogenxs/asdf-actions/issues/523)) ([85c9b91](https://github.com/diogenxs/asdf-actions/commit/85c9b91d46bd4e174a6e569924d853b36c3625fb))
+* missing @ in example ([#501](https://github.com/diogenxs/asdf-actions/issues/501)) ([dd88cac](https://github.com/diogenxs/asdf-actions/commit/dd88cacda735aadf625b889cbed3cd5923437af7))
+* remove notes about lack of semver major since it is supported ([ea2f7d9](https://github.com/diogenxs/asdf-actions/commit/ea2f7d9f93b7f63467ff239ea5e76b144b520d59))
+* update GH Action versions in docs ([#573](https://github.com/diogenxs/asdf-actions/issues/573)) ([212a976](https://github.com/diogenxs/asdf-actions/commit/212a976c0b59e3c97158f181fccd006f3c4388e7))
+* use full SHA refs as short are not supported ([#575](https://github.com/diogenxs/asdf-actions/issues/575)) ([0460184](https://github.com/diogenxs/asdf-actions/commit/0460184eb9fc6ee669a293c1e5f3c4fb5f52d55c))
+
 ## [3.0.2](https://github.com/asdf-vm/actions/compare/v3.0.1...v3.0.2) (2023-10-12)
 
 
